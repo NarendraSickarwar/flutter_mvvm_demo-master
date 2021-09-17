@@ -2,7 +2,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:fluttermvvm/services/webservice.dart';
-import 'package:fluttermvvm/view%20models/movie_view_model.dart';
+import 'package:fluttermvvm/viewmodels/movie_view_model.dart';
 
 class MovieListViewModel extends ChangeNotifier {
 

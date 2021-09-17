@@ -1,6 +1,6 @@
 
 import 'package:flutter/material.dart';
-import 'package:fluttermvvm/view%20models/movie_list_view_model.dart';
+import 'package:fluttermvvm/viewmodels/movie_list_view_model.dart';
 import 'package:fluttermvvm/widgets/movie_list.dart';
 
 import 'package:provider/provider.dart';
