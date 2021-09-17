@@ -85,15 +85,15 @@ jobs:
         with:
           flutter-version: '1.16.0'
           channel: 'dev'
-      - name: Run Flutter Driver tests
+      #- name: Run Flutter Driver tests
         #GitHub Action for installing, configuring and running Android Emulators (work only Mac OS)
         #https://github.com/ReactiveCircus/android-emulator-runner
-        uses: reactivecircus/android-emulator-runner@v1
-        with:
-          api-level: ${{ matrix.api-level }}
-          target: ${{ matrix.target }}
-          arch: x86_64
-          profile: Nexus 6
+      #  uses: reactivecircus/android-emulator-runner@v2
+       # with:
+       #   api-level: ${{ matrix.api-level }}
+       #   target: ${{ matrix.target }}
+       #   arch: x86_64
+        #  profile: Nexus 6
          # script: flutter drive --target=test_driver/app.dart
 
   build_deploy:
